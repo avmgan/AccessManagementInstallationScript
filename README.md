@@ -16,6 +16,7 @@ To use this script, you need:
 Edit the file "Install-Options.ps1" and modify it to fit your needs. At a minimum, you need to specify valid Access Management database and credentials.
 
 Run the AccessManagement-Service-Install.ps1 script (as Administrator) to launch the AM installation process to install and configure.
+
 .EXAMPLE1
    .\AccessManagement-Service-Install.ps1 -TCMInstallerPath D:\_Install\TridionSites95 -InstallationDir "D:\TXS2020-DEMO\Access Management" -CertThumbprint "4af0b42497e5988df2235b65ede11742e503fecd"
 
