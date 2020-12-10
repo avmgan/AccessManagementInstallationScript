@@ -1,0 +1,64 @@
+{
+    "key": "Windows",
+	"name": "Windows",
+    "displayName": "Windows Idp",
+    "isEnabled": true,
+    "description": "windows idp",
+    "type": "Windows",
+	"iconUrl": "/access-management/ui/idpIcons/Windows.png",
+	"accessControlList": [
+		{
+			"applications": [
+				{
+					"id": 4,
+					"name": "Access Management"
+				},
+				{
+					"id": 1,
+					"name": "Add-ons"
+				},
+				{
+					"id": 3,
+					"name": "Tridion Sites Classic (UI only)"
+				},
+				{
+					"id": 2,
+					"name": "Tridion Sites Experience Space"
+				}
+			],
+			"apiResources": [
+				{
+					"id": 1,
+					"name": "Access Management API"
+				},
+				{
+					"id": 2,
+					"name": "Add-ons API"
+				},
+				{
+					"id": 3,
+					"name": "Tridion Sites Content Manager API"
+				}
+			],
+			"apiResourceRoles": [
+				{
+					"id": 1,
+					"name": "Administrator"
+				},
+				{
+					"id": 2,
+					"name": "Administrator"
+				},
+				{
+					"id": 5,
+					"name": "Administrator"
+				}
+			]
+		}
+	],
+	"forwardedClaims": [],	
+	"separator": "",
+    "usernameClaim": "sub",
+    "fullNameClaim": "name",
+    "parameters": {}
+}
