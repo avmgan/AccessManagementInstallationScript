@@ -10,6 +10,7 @@ To use this script, you need:
 * Any Database version that is supported by Content Manager and Content Delivery
 * Any Microsoft Windows server operating system that is supported for Content Manager server or Content Delivery server
 * .NET Core and ASP.NET Core host bundles version 3.1
+* .PFX  signed certificate either issued from a certificate authority (CA) or self-signed
 
 # Instructions
 
