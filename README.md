@@ -1,6 +1,6 @@
 # Access Management Install
 
-This is my first attempt to create an "all-in-one" installer for people that don't want to be bothered following setup instructions from SDL Tridion documentation to setup Access Management through UI Interface
+This is my first attempt to create an "all-in-one" installer for people that don't want to be bothered following setup instructions from Tridion Sites documentation to setup Access Management through UI Interface
 
 # Pre-Requisites
 
